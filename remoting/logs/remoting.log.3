@@ -1,0 +1,11 @@
+十一月 23, 2020 2:13:05 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十一月 23, 2020 2:13:10 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver isPortVisible
+警告: connect timed out
+十一月 23, 2020 2:13:10 下午 hudson.remoting.jnlp.GuiListener$2 run
+严重: http://59.110.48.193:8080/ provided port:1234 is not reachable
+java.io.IOException: http://59.110.48.193:8080/ provided port:1234 is not reachable
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:314)
+	at hudson.remoting.Engine.innerRun(Engine.java:694)
+	at hudson.remoting.Engine.run(Engine.java:519)
+
